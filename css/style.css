@@ -30,10 +30,17 @@ a {
     border-bottom: 1px #e1e1e1 solid;
 }
 
-.left-header, .right-header {
+.left-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 12px;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     font-size: 12px;
 }
 
@@ -65,6 +72,7 @@ nav>a:last-child::before {
     padding: 8px 9px 8px 9px;
     font-family: "Roboto";
     font-size: 11px;
+    margin-left: 34px;
 }
 
 .h1 {
