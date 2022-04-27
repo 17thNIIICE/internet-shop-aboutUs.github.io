@@ -24,7 +24,7 @@ a {
 }
 
 
-header > section:first-child {
+.top-header {
     padding-top: 15px;
     padding-bottom: 11px;
     border-bottom: 1px #e1e1e1 solid;
@@ -74,4 +74,10 @@ nav > a:last-child::before {
 
 .header-content {
     margin: 32px 0px 32px 0px;
+}
+
+.cart > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
