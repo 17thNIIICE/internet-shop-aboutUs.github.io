@@ -48,6 +48,10 @@ nav > a:last-child::before {
     color: #e1e1e1;
 }
 
+.header-link:hover > .fa-heart{
+    color:red;
+}
+
 .right-header > nav > a:first-child::after {
     content: '|';
     margin: 0px 20px 0px 20px;  
