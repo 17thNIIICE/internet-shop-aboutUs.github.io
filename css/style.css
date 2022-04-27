@@ -12,6 +12,7 @@
     font-weight: bold;
 }
 
+/* general styles */
 p, a {
     color: #777777;
     margin-bottom: 0;
@@ -23,55 +24,135 @@ a {
     cursor: pointer;
 }
 
-
-header > section:first-child {
+/* header styles */
+.top-header {
     padding-top: 15px;
     padding-bottom: 11px;
-    border-bottom: 1px #e1e1e1 solid;
 }
-
-.left-header, .right-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 12px;
-} 
 
 .left-header {
-    justify-content: flex-start;
+    font-size: 12px;
+}
+
+.right-header {
+    font-size: 12px;
 }
 
 
-nav > a:last-child::before {
+nav>a:last-child::before {
     content: '|';
-    margin: 0px 20px 0px 20px;  
+    margin: 0px 20px 0px 20px;
     color: #e1e1e1;
 }
 
-.header-link:hover > .fa-heart{
-    color:red;
+.header-link:hover>.fa-heart {
+    color: red;
 }
 
-.right-header > nav > a:first-child::after {
+.right-header>nav>a:first-child::after {
     content: '|';
-    margin: 0px 20px 0px 20px;  
+    margin: 0px 20px 0px 20px;
     color: #e1e1e1;
 }
 
-.right-header > button {
+.right-header>button {
     border: none;
     border-radius: 1px;
     color: #555555;
     padding: 8px 9px 8px 9px;
     font-family: "Roboto";
     font-size: 11px;
+    margin-left: 34px;
 }
 
-.h1 {
+h1 {
     font-family: "Raleway-Bold";
     font-size: 26px;
 }
 
 .header-content {
     margin: 32px 0px 32px 0px;
+    height: 46px;
 }
+
+.left-header, .search, .cart {
+    height: 46px;
+}
+
+.search-input {
+    color: #aaaaaa;
+    border: 1px #e8e8e8 solid;
+    height: 100%;
+    font-family: "Roboto";
+    font-size: 12px;
+    padding-left: 14px;
+    width: 100%;
+    border-radius: 1px;
+}
+
+.btn {
+    border: 1px #e8e8e8 solid;
+    height: 46px;
+    font-family: "Roboto";
+    font-size: 12px;
+    padding: 0px 14px 0px 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    color: black;
+    border-radius: 1px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: black;
+}
+
+
+.serch-icon-button {
+    height: 100%;
+    background-color: #ffd200;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.serch-icon-button > i {
+    padding: 17px;
+}
+
+.img-fluid {
+    margin: 13px 13px 13px 0px;
+}
+
+.price {
+    color: #408de4;
+}
+
+.cart a:last-child {
+    height: 100%;
+    border-left: 1px #e8e8e8 solid;
+}
+
+.cart a:last-child>p {
+    height: 100%;
+    line-height: 46px;
+    margin-left: 14px;
+}
+/*=================== FOOTER =======================*/
+footer{
+    margin:0;
+    padding:0;
+}
+footer .container{
+    padding:35px 0px;
+}
+footer p{
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
