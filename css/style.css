@@ -5,6 +5,13 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url("../fonts/Raleway-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
 p, a {
     color: #777777;
     margin-bottom: 0;
@@ -17,7 +24,7 @@ a {
 }
 
 
-header {
+header > section:first-child {
     padding-top: 15px;
     padding-bottom: 11px;
     border-bottom: 1px #e1e1e1 solid;
@@ -54,4 +61,13 @@ nav > a:last-child::before {
     padding: 8px 9px 8px 9px;
     font-family: "Roboto";
     font-size: 11px;
+}
+
+.h1 {
+    font-family: "Raleway-Bold";
+    font-size: 26px;
+}
+
+.header-content {
+    margin: 32px 0px 32px 0px;
 }
