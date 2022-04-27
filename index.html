@@ -21,16 +21,19 @@
 
   <body>
     <header>
-      <section class="top-header">
+      <section class="top-header border-bottom">
         <div class="container">
           <div class="row">
-            <div class="left-header col-7">
+            <div class="left-header col-7 d-flex align-items-center">
               <nav>
                 <a class="header-link">Login / Signup</a>
                 <a class="header-link">USD</a>
               </nav>
+              <p></p>
             </div>
-            <div class="right-header col">
+            <div
+              class="d-flex right-header col justify-content-end align-items-center"
+            >
               <nav>
                 <a class="header-link">Help</a>
                 <a class="header-link">
@@ -47,15 +50,22 @@
 
       <section class="header-content">
         <div class="container">
-          <div class="row">
-            <div class="col-4 left-header">
+          <div class="row justify-content-between">
+            <div class="col-auto left-header d-flex align-items-center">
               <img src="img/logo.png" alt="logo" />
               <h1>SUPERMART</h1>
             </div>
-            <div class="search col-6">
+            <div class="search col-8 d-flex align-items-center">
               <input class="search-input" type="text" placeholder="Search..." />
               <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
                   All Categories
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -68,9 +78,9 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
               </div>
             </div>
-            <div class="col cart">
-              <a href="">
-                <img src="img/Bag.png" alt="bag" />
+            <div class="col-auto border cart d-flex align-items-center justify-content-between">
+              <a href="#" class="text-center">
+                <img class="img-fluid" src="img/Bag.png" alt="bag" />
               </a>
               <a>
                 <p>
@@ -78,6 +88,18 @@
                   <span class="price">$0.00</span>
                 </p>
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="header-categories">
+        <div class="wrapper">
+          <div class="row">
+            <div class="col-9"></div>
+            <div class="col-3 phone-container">
+              <p>CALL US FREE</p>
+              <span>1-800-777-7889</span>
             </div>
           </div>
         </div>
@@ -105,4 +127,3 @@
     crossorigin="anonymous"
   ></script>
 </html>
-
