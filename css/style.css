@@ -12,6 +12,7 @@
     font-weight: bold;
 }
 
+/* general styles */
 p, a {
     color: #777777;
     margin-bottom: 0;
@@ -23,7 +24,7 @@ a {
     cursor: pointer;
 }
 
-
+/* header styles */
 .top-header {
     padding-top: 15px;
     padding-bottom: 11px;
