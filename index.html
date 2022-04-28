@@ -25,8 +25,8 @@
         <div class="container">
           <div class="row">
             <div class="left-header col-7 d-flex align-items-center">
-              <nav>
-                <a class="header-link">Login / Signup</a>
+              <nav class="nav align-items-center">
+                <a class="header-link px-2">Login / Signup</a>
                 <a class="header-link">USD</a>
               </nav>
               <p></p>
@@ -34,11 +34,11 @@
             <div
               class="d-flex right-header col justify-content-end align-items-center"
             >
-              <nav>
-                <a class="header-link">Help</a>
+              <nav class="nav align-items-center">
+                <a class="header-link r-4">Help</a>
                 <a class="header-link">
-                  <i class="fa-regular fa-heart"></i>Wishlist</a>
-                <a class="header-link">English</a>
+                  <i class="fa-regular fa-heart m-2"></i>Wishlist</a>
+                <a class="header-link ps-2">English</a>
               </nav>
               <button>DOWNLOAD APP</button>
             </div>
@@ -53,17 +53,19 @@
               <img src="img/logo.png" alt="logo" />
               <h1>SUPERMART</h1>
             </div>
-            <div class="search col-8 d-flex align-items-center"><!--ФОРМА-->
-              <input class="search-input" type="text" placeholder="Search..." />
-              <div class="dropdown">
-                <button
+            <div class="search col-8 justify-content-between">
+
+              <form action="" class="search d-flex align-items-center ">
+                <input class="search-input" type="text" placeholder="Search..." />
+                <div class="dropdown">
+                  <button
                   class="btn btn-secondary dropdown-toggle"
                   type="button"
                   id="dropdownMenuButton"
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
-                >
+                  >
                   All Categories
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -71,14 +73,16 @@
                   <a class="dropdown-item" href="#">Another action</a>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
-              </div><!--КОНЕЦ-->
+              </div>
+            
               <div class="serch-icon-button">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </div>
+            </form>
             </div>
             <div class="col-auto border cart d-flex align-items-center justify-content-between">
               <a href="#" class="text-center">
-                <img class="img-fluid" src="img/Bag.png" alt="bag" />
+                <img class="img-fluid" src="img/Bag.png" alt="bag"/>
               </a>
               <a>
                 <p>
@@ -91,13 +95,30 @@
         </div>
       </section>
 
-      <section class="header-categories">
-        <div class="wrapper">
-          <div class="row">
-            <div class="col-9"></div>
-            <div class="col-3 phone-container">
-              <p>CALL US FREE</p>
-              <span>1-800-777-7889</span>
+      <section class="header-categories" style="background-color: #408de4;">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-9 d-flex align-content-center align-items-center justify-content-between">
+              <nav class="navbar navbar-light bg-warning w-100">
+                <a href="#" class="navbar-brand px-3">DEPARTMENTS</a>
+                <button class="navbar-toggler ml-auto me-4" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+                    <span class="navbar-toggler-icon my-toggler"></span>
+                </button>
+            </nav>
+
+            <nav class="d-flex justify-content-around align-content-center ms-4 text-white">
+              <a href="" class="text-white pe-2 ps-2">HOME</a>
+              <a href="" class="text-white pe-2 ps-2">SHOP</a>
+              <a href="" class="text-white pe-2 ps-2">FASHION</a>
+              <a href="" class="text-white pe-2 ps-2">ELECTRONICS</a>
+              <a href="" class="text-white pe-2 ps-2">PAGES</a>
+              <a href="" class="text-white pe-2 ps-2">FEATURES</a>
+              <a href="" class="text-white pe-2 ps-2">BLOG</a>
+            </nav>
+            </div>
+            <div class="col-3 d-flex justify-content-end align-items-center phone-container">
+              <p class="text-white" style="font-size: 12px;">CALL US FREE</p>
+              <span class="phone">1-800-777-7889</span>
             </div>
           </div>
         </div>
@@ -105,6 +126,18 @@
     </header>
 
     <main>
+      <div class="navbar-collapse collapse bg-light" id="collapsingNavbar2">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+        </ul>
+      </div>
+      <section class="about-us-heading">
+      </section>
       <section class="d-flex align-items-center justify-content-center border-bottom border-top cards-content">
         <div class="container">
           <div class="row justify-content-center cards-container">
