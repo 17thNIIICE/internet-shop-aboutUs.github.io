@@ -19,6 +19,13 @@
     font-weight: 600;
 }
 
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 /*=================== GENERAL STYLES ===============*/
 p, a {
     color: #777777;
@@ -167,6 +174,33 @@ a {
 
 .advantages p {
     font-family: "Roboto";
+}
+
+/*=================== MAIN (section-statistical-data # SECTION) ===============*/
+
+.section-statistical-data {
+    padding: 88px 0px 88px 0px;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+
+/*=================== MAIN (TEAM # SECTION) ================*/
+
+.section-teem-info{
+    padding: 80px 0px 80px 0px;
+}
+
+.section-teem-info h2{
+    font-family: "Raleway-Bold";
+}
+
+.section-teem-info > p {
+    font-family: "Raleway";
+}
+
+.teem-preson__info {
+    padding: 28px 0px 48px 0px;
 }
 
 /*=================== MAIN (LAST # SECTIONS) ===============*/
