@@ -12,6 +12,13 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: "Raleway-SemiBold";
+    src: url("../fonts/Raleway-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
 /*=================== GENERAL STYLES ===============*/
 p, a {
     color: #777777;
@@ -55,14 +62,14 @@ a {
     color: #e1e1e1;
 }
 
-.right-header>button {
+.button {
     border: none;
     border-radius: 1px;
     color: #555555;
     padding: 8px 9px 8px 9px;
     font-family: "Roboto";
     font-size: 11px;
-    margin-left: 34px;
+    cursor: pointer;
 }
 
 .header-content {
@@ -95,13 +102,11 @@ a {
     -moz-appearance: none;
     -o-appearance: none;
     appearance: none;
-    background-color: transparent;
     color: black;
     border-radius: 1px;
 }
 
 .btn:hover {
-    background-color: transparent;
     color: black;
 }
 
@@ -144,6 +149,24 @@ a {
     background-color: #ffd200;
     margin-left: 14px;
     padding: 5px 8px 5px 8px;
+}
+
+/*=================== MAIN (advantages # SECTION) ===============*/
+
+.advantages {
+    padding: 80px 0px 70px 0px;
+}
+
+.advantages-icon {
+    padding: 24px 28px 24px 28px;
+}
+
+.advantages h2 {
+    font-family: "Raleway-SemiBold";
+}
+
+.advantages p {
+    font-family: "Roboto";
 }
 
 /*=================== MAIN (LAST # SECTIONS) ===============*/
