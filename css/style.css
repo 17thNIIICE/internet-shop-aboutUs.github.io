@@ -27,7 +27,8 @@
 }
 
 /*=================== GENERAL STYLES ===============*/
-p, a {
+p,
+a {
     color: #777777;
     margin-bottom: 0;
     font-family: "Roboto";
@@ -85,7 +86,9 @@ a {
     height: 46px;
 }
 
-.left-header, .search, .cart {
+.left-header,
+.search,
+.cart {
     height: 46px;
 }
 
@@ -126,7 +129,7 @@ a {
     border-radius: 1px;
 }
 
-.serch-icon-button > i {
+.serch-icon-button>i {
     padding: 17px;
 }
 
@@ -188,15 +191,15 @@ a {
 
 /*=================== MAIN (TEAM # SECTION) ================*/
 
-.section-teem-info{
+.section-teem-info {
     padding: 80px 0px 80px 0px;
 }
 
-.section-teem-info h2{
+.section-teem-info h2 {
     font-family: "Raleway-Bold";
 }
 
-.section-teem-info > p {
+.section-teem-info>p {
     font-family: "Raleway";
 }
 
@@ -205,42 +208,51 @@ a {
 }
 
 /*=================== MAIN (LAST # SECTIONS) ===============*/
-.cards-content{
+.cards-content {
     width: 100%;
 }
-.card{
-    padding:39px 0px 46px 0px;
+
+.card {
+    padding: 39px 0px 46px 0px;
     border-radius: 0;
-    border:none;
+    border: none;
 }
-.card:not(:first-child){
+
+.card:not(:first-child) {
     padding-left: 66px;
 }
-.card:not(:last-child){
-    border-right:1px rgba(0,0,0,.125) solid;
+
+.card:not(:last-child) {
+    border-right: 1px rgba(0, 0, 0, .125) solid;
     padding-right: 57px;
 }
-.telega-card-container img{
-    width:49px;
+
+.telega-card-container img {
+    width: 49px;
     height: 48px;
 }
-.shield-card-container img{
-    width:40px;
+
+.shield-card-container img {
+    width: 40px;
     height: 51px;
 }
-.credit-card-container img{
-    width:55px;
+
+.credit-card-container img {
+    width: 55px;
     height: 40px;
 }
-.mobilePhone-card-container img{
-    width:38px;
+
+.mobilePhone-card-container img {
+    width: 38px;
     height: 53px;
 }
-.card-title{
+
+.card-title {
     font-size: 15px;
     font-weight: bold;
 }
-.card-text{
+
+.card-text {
     font-size: 12px;
     font-weight: normal;
 }
@@ -248,29 +260,34 @@ a {
 
 
 
-.keep-in-touch-section{
+.keep-in-touch-section {
     background-color: #408de4;
     padding: 29px 0px;
 }
-.keep-in-touch-section h2{
+
+.keep-in-touch-section h2 {
     font-size: 14px;
     font-weight: bold;
-    color:white;
+    color: white;
     text-transform: uppercase;
     width: 150px;
-    margin:0;
+    margin: 0;
 }
-.imgText-wrapper{
-    width:20rem;
+
+.imgText-wrapper {
+    width: 20rem;
     padding-left: 50px;
 }
-.paper-plane-img{
+
+.paper-plane-img {
     margin-right: 20px;
 }
-.validateEmail{
+
+.validateEmail {
     width: 100%;
     height: 100%;
 }
+
 .userEmail {
     color: #aaaaaa;
     border: 1px #e8e8e8 solid;
@@ -281,74 +298,85 @@ a {
     width: 100%;
     border-radius: 1px;
 }
+
 .submitEmailAdress {
     height: 100%;
     background-color: #ffd200;
-    color:#484226;
+    color: #484226;
     font-family: 'Raleway-Bold';
     text-transform: uppercase;
     cursor: pointer;
-    border:none;
-    width:100px;
-    height:47px;
-}
-.vr{
-    background-color: #68afff;
-    height: 50px;
-    width:2px;
+    border: none;
+    width: 100px;
+    height: 47px;
 }
 
-.social-links-svg h3{
+.vr {
+    background-color: #68afff;
+    height: 50px;
+    width: 2px;
+}
+
+.social-links-svg h3 {
     font-size: 13px;
     font-family: 'Raleway-Bold';
     text-transform: uppercase;
     margin-top: 5px;
-    color:white;
+    color: white;
 }
-.social-links-svg-wrapper{
-    width:100%;
+
+.social-links-svg-wrapper {
+    width: 100%;
 }
-.svg-container{
+
+.svg-container {
     background-color: white;
     font-size: 15px;
-    width:25px;
+    width: 25px;
     height: 25px;
     border-radius: 20px;
 }
 
-.main-footer-section{
+.main-footer-section {
     padding-top: 70px;
     padding-bottom: 80px;
 }
-.main-footer-section h2{
+
+.main-footer-section h2 {
     font-size: 15px;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.informative-text{
+
+.informative-text {
     margin-right: 70px;
 }
-.logo-text{
+
+.logo-text {
     margin-bottom: 20px;
 }
-.informative-text-content{
+
+.informative-text-content {
     font-size: 13px;
     margin-bottom: 1em;
 }
-.dif-p-word{
-    color:#555555;
+
+.dif-p-word {
+    color: #555555;
 }
 
 /*=================== FOOTER =======================*/
-footer{
-    margin:0;
-    padding:0;
+footer {
+    margin: 0;
+    padding: 0;
     border-top: 1px #f0f0f0 solid;
 }
-footer .container{
-    padding:35px 0px;
+
+footer .container {
+    padding: 35px 0px;
 }
-footer p{
+
+footer p {
     font-size: 12px;
     font-family: 'Roboto';
     font-style: normal;

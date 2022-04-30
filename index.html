@@ -34,11 +34,11 @@
             <div
               class="d-flex right-header col justify-content-end align-items-center"
             >
-              <nav class="nav align-items-center">
               <nav class="nav align-items-center me-5">
                 <a class="header-link r-4">Help</a>
                 <a class="header-link">
-                  <i class="fa-regular fa-heart m-2"></i>Wishlist</a>
+                  <i class="fa-regular fa-heart m-2"></i>Wishlist</a
+                >
                 <a class="header-link ps-2">English</a>
               </nav>
               <button class="button">DOWNLOAD APP</button>
@@ -52,40 +52,48 @@
           <div class="row justify-content-between">
             <div class="col-auto left-header d-flex align-items-center">
               <img src="img/logo.png" alt="logo" />
-              <h2 style="font-family: Raleway-Bold;
-              font-size: 26px; margin: 0;">SUPERMART</h2>
+              <h2 style="font-family: Raleway-Bold; font-size: 26px; margin: 0">
+                SUPERMART
+              </h2>
             </div>
             <div class="search col-8 justify-content-between">
-
-              <form action="" class="search d-flex align-items-center ">
-                <input class="search-input" type="text" placeholder="Search..." />
+              <form action="#" class="search d-flex align-items-center">
+                <input
+                  class="search-input"
+                  type="text"
+                  placeholder="Search..."
+                />
                 <div class="dropdown">
                   <button
-                  class="btn btn-secondary dropdown-toggle"
-                  class="btn-outline-secondary btn dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
+                    class="btn btn-secondary dropdown-toggle btn-outline-secondary btn dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
                   >
-                  All Categories
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                    All Categories
+                  </button>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
                 </div>
-              </div>
-            
-              <div class="serch-icon-button">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </div>
-            </form>
+
+                <div class="serch-icon-button">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </form>
             </div>
-            <div class="col-auto border cart d-flex align-items-center justify-content-between">
+            <div
+              class="col-auto border cart d-flex align-items-center justify-content-between"
+            >
               <a href="#" class="text-center">
-                <img class="img-fluid" src="img/Bag.png" alt="bag"/>
+                <img class="img-fluid" src="img/Bag.png" alt="bag" />
               </a>
               <a>
                 <p>
@@ -98,57 +106,80 @@
         </div>
       </section>
 
-      <section class="header-categories" style="background-color: #408de4;">
+      <section class="header-categories" style="background-color: #408de4">
         <div class="container">
           <div class="row justify-content-between">
-            <div class="col-9 d-flex align-content-center align-items-center justify-content-between">
+            <div
+              class="col-9 d-flex align-content-center align-items-center justify-content-between"
+            >
               <nav class="navbar navbar-light bg-warning w-100">
                 <a href="#" class="navbar-brand px-3">DEPARTMENTS</a>
-                <button class="navbar-toggler ml-auto me-4" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
-                    <span class="navbar-toggler-icon my-toggler"></span>
+                <button
+                  class="navbar-toggler ml-auto me-4"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapsingNavbar2"
+                >
+                  <span class="navbar-toggler-icon my-toggler"></span>
                 </button>
-            </nav>
+              </nav>
 
-            <nav class="d-flex justify-content-around align-content-center ms-4 text-white">
-              <a href="" class="text-white pe-2 ps-2">HOME</a>
-              <a href="" class="text-white pe-2 ps-2">SHOP</a>
-              <a href="" class="text-white pe-2 ps-2">FASHION</a>
-              <a href="" class="text-white pe-2 ps-2">ELECTRONICS</a>
-              <a href="" class="text-white pe-2 ps-2">PAGES</a>
-              <a href="" class="text-white pe-2 ps-2">FEATURES</a>
-              <a href="" class="text-white pe-2 ps-2">BLOG</a>
-            </nav>
+              <nav
+                class="d-flex justify-content-around align-content-center ms-4 text-white"
+              >
+                <a href="" class="text-white pe-2 ps-2">HOME</a>
+                <a href="" class="text-white pe-2 ps-2">SHOP</a>
+                <a href="" class="text-white pe-2 ps-2 position-relative">
+                  FASHION
+                  <span class="position-absolute top-0 start-50 translate-middle badge bg-danger" style="margin-top: -10px;">
+                    HOT
+                    <span class="visually-hidden">непрочитанные сообщения</span>
+                  </span>
+                </a>
+                <a href="" class="text-white pe-2 ps-2 position-relative">
+                  ELECTRONICS
+                  <span class="position-absolute top-0 start-50 translate-middle badge bg-info" style="margin-top: -10px;">
+                    NEW
+                    <span class="visually-hidden">непрочитанные сообщения</span>
+                  </span>
+                </a>
+                <a href="" class="text-white pe-2 ps-2">PAGES</a>
+                <a href="" class="text-white pe-2 ps-2">FEATURES</a>
+                <a href="" class="text-white pe-2 ps-2">BLOG</a>
+              </nav>
             </div>
-            <div class="col-3 d-flex justify-content-end align-items-center phone-container">
-              <p class="text-white" style="font-size: 12px;">CALL US FREE</p>
+            <div
+              class="col-3 d-flex justify-content-end align-items-center phone-container"
+            >
+              <p class="text-white" style="font-size: 12px">CALL US FREE</p>
               <span class="phone">1-800-777-7889</span>
             </div>
           </div>
         </div>
       </section>
     </header>
- 
+
     <main>
       <div class="navbar-collapse collapse bg-light" id="collapsingNavbar2">
         <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
         </ul>
       </div>
       <section class="about-us-heading bg-secondary">
         <div class="container">
-          <div class="row py-5 text-white align-items-center justify-content-between">
+          <div
+            class="row py-5 text-white align-items-center justify-content-between"
+          >
             <div class="col-6">
-                <h1>
-                  ABOUT US
-                </h1>
+              <h1>ABOUT US</h1>
             </div>
             <div class="col-6">
-              <p class="text-white" style="text-align: end;">HOME / ABOUT US</p>
+              <p class="text-white" style="text-align: end">HOME / ABOUT US</p>
             </div>
           </div>
         </div>
@@ -158,16 +189,29 @@
         <div class="container py-5">
           <div class="row my-5">
             <div class="col-6">
-              <img src="img/about-us-img.png" alt="about us img">
+              <img src="img/about-us-img.png" alt="about us img" />
             </div>
             <div class="col-6">
-              <h2 style="font-size: 24px;">Hello, We are Supermart Established 
-                2006 – Newyork</h2>
-              <h3 style="color: #555555; font-size: 15px;">Love boat soon will be making another run the love boat promises someone thing for everyone two good old boys Wouldn't change.</h3>
-              <p style="font-size: 14px;">That's just a little bit more than the law will allow. Love exciting and new. Come aboard were expecting you. Love life's sweetest reward Let it flow it floats back to you. They're creepy and they're kooky mysterious and spooky. They're all gether ooky the Addams Family. Straightnin' the curves Here's the story of a man named Brady who was busy with three boys of his own they call him Flipper Flipper faster than lightning. No one you see is smarter.
-
-                So lets make the most of this beautiful day. Since we're together. Well the first thing you know ol' Jeds a millionaire. Kinfolk said Jed move away from there. </p>
-              <button class="button mt-5" style="padding: 18px 40px 18px 40px;">
+              <h2 style="font-size: 24px">
+                Hello, We are Supermart Established 2006 – Newyork
+              </h2>
+              <h3 style="color: #555555; font-size: 15px">
+                Love boat soon will be making another run the love boat promises
+                someone thing for everyone two good old boys Wouldn't change.
+              </h3>
+              <p style="font-size: 14px">
+                That's just a little bit more than the law will allow. Love
+                exciting and new. Come aboard were expecting you. Love life's
+                sweetest reward Let it flow it floats back to you. They're
+                creepy and they're kooky mysterious and spooky. They're all
+                gether ooky the Addams Family. Straightnin' the curves Here's
+                the story of a man named Brady who was busy with three boys of
+                his own they call him Flipper Flipper faster than lightning. No
+                one you see is smarter. So lets make the most of this beautiful
+                day. Since we're together. Well the first thing you know ol'
+                Jeds a millionaire. Kinfolk said Jed move away from there.
+              </p>
+              <button class="button mt-5" style="padding: 18px 40px 18px 40px">
                 CONTACT US
               </button>
             </div>
@@ -175,60 +219,96 @@
         </div>
       </section>
 
-      <section class="advantages" style="background-color: #f9f9f9;">
+      <section class="advantages" style="background-color: #f9f9f9">
         <div class="container">
           <div class="row d-flex align-content-center align-items-center">
-            <div class="col-4 d-flex flex-column justify-content-center text-center align-items-center">
-              <div class="advantages-icon__background mb-4" style="background-color: #408de4; border-radius: 100%;">
-                <img src="img/first-Icon.png" class="advantages-icon" alt="Strategy & Marketing">
+            <div
+              class="col-4 d-flex flex-column justify-content-center text-center align-items-center"
+            >
+              <div
+                class="advantages-icon__background mb-4"
+                style="background-color: #408de4; border-radius: 100%"
+              >
+                <img
+                  src="img/first-Icon.png"
+                  class="advantages-icon"
+                  alt="Strategy & Marketing"
+                />
               </div>
 
               <h2 class="mb-4">Strategy & Marketing</h2>
-              <p>We choose to go to the moon in this 
-                decade and the other things because they are easy they are hard goal section.
-                 will serve to organize and measure the best of our energies and skills</p>
+              <p>
+                We choose to go to the moon in this decade and the other things
+                because they are easy they are hard goal section. will serve to
+                organize and measure the best of our energies and skills
+              </p>
             </div>
-            <div class="col-4 d-flex flex-column justify-content-center text-center align-items-center">
-              <div class="advantages-icon__background mb-4" style="background-color: #408de4; border-radius: 100%;">
-                <img src="img/second-Icon.png" class="advantages-icon" alt="Interaction Design" >
+            <div
+              class="col-4 d-flex flex-column justify-content-center text-center align-items-center"
+            >
+              <div
+                class="advantages-icon__background mb-4"
+                style="background-color: #408de4; border-radius: 100%"
+              >
+                <img
+                  src="img/second-Icon.png"
+                  class="advantages-icon"
+                  alt="Interaction Design"
+                />
               </div>
 
               <h2 class="mb-4">Interaction Design</h2>
-              <p>We choose to go to the moon in this 
-                decade and the other things because they are easy they are hard goal section.
-                 will serve to organize and measure the best of our energies and skills</p>
+              <p>
+                We choose to go to the moon in this decade and the other things
+                because they are easy they are hard goal section. will serve to
+                organize and measure the best of our energies and skills
+              </p>
             </div>
-            <div class="col-4 d-flex flex-column justify-content-center text-center align-items-center">
-              <div class="advantages-icon__background mb-4" style="background-color: #408de4; border-radius: 100%;">
-                <img src="img/third-Icon.png" class="advantages-icon" alt="Web Developemnt">
+            <div
+              class="col-4 d-flex flex-column justify-content-center text-center align-items-center"
+            >
+              <div
+                class="advantages-icon__background mb-4"
+                style="background-color: #408de4; border-radius: 100%"
+              >
+                <img
+                  src="img/third-Icon.png"
+                  class="advantages-icon"
+                  alt="Web Developemnt"
+                />
               </div>
 
               <h2 class="mb-4">Web Developemnt</h2>
-              <p>We choose to go to the moon in this 
-                decade and the other things because they are easy they are hard goal section.
-                 will serve to organize and measure the best of our energies and skills</p>
+              <p>
+                We choose to go to the moon in this decade and the other things
+                because they are easy they are hard goal section. will serve to
+                organize and measure the best of our energies and skills
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section-statistical-data" style="background-color: #d0d0d0; color: white; ">
+      <section
+        class="section-statistical-data"
+        style="background-color: #d0d0d0; color: white"
+      >
         <div class="container">
           <div class="row">
             <div class="col-3 d-flex flex-column text-center">
-              <span style="font-size: 50px;">142</span>
+              <span style="font-size: 50px">142</span>
               <span>Total employees</span>
             </div>
             <div class="col-3 d-flex flex-column text-center">
-              <span style="font-size: 50px;">99</span>
+              <span style="font-size: 50px">99</span>
               <span>% Satisfaction</span>
             </div>
             <div class="col-3 d-flex flex-column text-center">
-              <span style="font-size: 50px;">4214</span>
+              <span style="font-size: 50px">4214</span>
               <span>Cups of Coffee</span>
             </div>
             <div class="col-3 d-flex flex-column text-center">
-              <span style="font-size: 50px;">4.7</span>
+              <span style="font-size: 50px">4.7</span>
               <span>Buyers Rating</span>
             </div>
           </div>
@@ -237,135 +317,215 @@
 
       <section class="section-teem-info text-center">
         <h2>Meet The Team</h2>
-        <p>That's just a little bit more than the law will allow love exciting and new come.
-          aboard 
-          were expecting you and matter via god. </p>
-          <div class="container mt-5">
-            <div class="row justify-content-around">
-              <div class="col-3 d-flex flex-column">
-                <img src="img/teem-person-img.png" class="w-100" alt="teem-person-img">
-                <div class="teem-preson__info border">
-                  <h3>George Big</h3>
-                  <p class="mb-3">Head of Investment</p>
-                  <div class="icons">
-                    <a href=""><i class="fa-brands fa-facebook-square"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    <a href=""><i class="fa-brands fa-google-plus-square"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3 d-flex flex-column ">
-                <img src="img/teem-person-img.png" class="w-100" alt="teem-person-img">
-                <div class="teem-preson__info border">
-                  <h3>George Big</h3>
-                  <p class="mb-3">Head of Investment</p>
-                  <div class="icons">
-                    <a href=""><i class="fa-brands fa-facebook-square"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    <a href=""><i class="fa-brands fa-google-plus-square"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3 d-flex flex-column ">
-                <img src="img/teem-person-img.png" class="w-100" alt="teem-person-img">
-                <div class="teem-preson__info border">
-                  <h3>George Big</h3>
-                  <p class="mb-3">Head of Investment</p>
-                  <div class="icons">
-                    <a href=""><i class="fa-brands fa-facebook-square"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    <a href=""><i class="fa-brands fa-google-plus-square"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3 d-flex flex-column">
-                <img src="img/teem-person-img.png" class="w-100" alt="teem-person-img">
-                <div class="teem-preson__info border">
-                  <h3>George Big</h3>
-                  <p class="mb-3">Head of Investment</p>
-                  <div class="icons">
-                    <a href=""><i class="fa-brands fa-facebook-square"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    <a href=""><i class="fa-brands fa-google-plus-square"></i></a>
-                  </div>
+        <p>
+          That's just a little bit more than the law will allow love exciting
+          and new come. aboard were expecting you and matter via god.
+        </p>
+        <div class="container mt-5">
+          <div class="row justify-content-around">
+            <div class="col-3 d-flex flex-column">
+              <img
+                src="img/teem-person-img.png"
+                class="w-100"
+                alt="teem-person-img"
+              />
+              <div class="teem-preson__info border">
+                <h3>George Big</h3>
+                <p class="mb-3">Head of Investment</p>
+                <div class="icons">
+                  <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                  <a href=""><i class="fa-brands fa-google-plus-square"></i></a>
                 </div>
               </div>
             </div>
-          </div>
-      </section>
-
-      <section class="d-flex align-items-center justify-content-center border-bottom border-top cards-content">
-        <div class="container">
-          <div class="row justify-content-center cards-container">
-            <!--Тут я дописал классы к контейрам изображений чтобы поменять их ширину в css в соответствии с именем (бустрап дает изображениям width:100%)-->
-            <div class="card text-center align-items-center telega-card-container" style="width: 18rem;">
-              <img src="./img/content-image-telega.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">FREE SHIPPING</h5>
-                <p class="card-text">Free shipping on World wide Order Over $99</p>
+            <div class="col-3 d-flex flex-column">
+              <img
+                src="img/teem-person-img.png"
+                class="w-100"
+                alt="teem-person-img"
+              />
+              <div class="teem-preson__info border">
+                <h3>George Big</h3>
+                <p class="mb-3">Head of Investment</p>
+                <div class="icons">
+                  <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                  <a href=""><i class="fa-brands fa-google-plus-square"></i></a>
+                </div>
               </div>
             </div>
-            <div class="card text-center align-items-center shield-card-container" style="width: 19rem;">
-              <img src="./img/content-image-shield.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">TRUSTED PAY</h5>
-                <p class="card-text">100% Payment Protection & Easy return</p>
+            <div class="col-3 d-flex flex-column">
+              <img
+                src="img/teem-person-img.png"
+                class="w-100"
+                alt="teem-person-img"
+              />
+              <div class="teem-preson__info border">
+                <h3>George Big</h3>
+                <p class="mb-3">Head of Investment</p>
+                <div class="icons">
+                  <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                  <a href=""><i class="fa-brands fa-google-plus-square"></i></a>
+                </div>
               </div>
             </div>
-            <div class="card text-center align-items-center credit-card-container" style="width: 19em;">
-              <img src="./img/content-image-creditCards.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">SECURED PAYMENT</h5>
-                <p class="card-text">All Major & Debit Cards Accepted</p>
-              </div>
-            </div>
-            <div class="card text-center align-items-center mobilePhone-card-container" style="width: 18rem;">
-              <img src="./img/content-image-mobilePhone.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">SHOP ON APP</h5>
-                <p class="card-text">Just Download our App & Shop With Best Offers!</p>
+            <div class="col-3 d-flex flex-column">
+              <img
+                src="img/teem-person-img.png"
+                class="w-100"
+                alt="teem-person-img"
+              />
+              <div class="teem-preson__info border">
+                <h3>George Big</h3>
+                <p class="mb-3">Head of Investment</p>
+                <div class="icons">
+                  <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                  <a href=""><i class="fa-brands fa-google-plus-square"></i></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="d-flex align-items-center justify-content-center keep-in-touch-section">
+
+      <section
+        class="d-flex align-items-center justify-content-center border-bottom border-top cards-content"
+      >
         <div class="container">
-          <div class="row justify-content-between"> <!-- Надо понять где я здесь туплю-->
+          <div class="row justify-content-center cards-container">
+            <!--Тут я дописал классы к контейрам изображений чтобы поменять их ширину в css в соответствии с именем (бустрап дает изображениям width:100%)-->
+            <div
+              class="card text-center align-items-center telega-card-container"
+              style="width: 18rem"
+            >
+              <img
+                src="./img/content-image-telega.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">FREE SHIPPING</h5>
+                <p class="card-text">
+                  Free shipping on World wide Order Over $99
+                </p>
+              </div>
+            </div>
+            <div
+              class="card text-center align-items-center shield-card-container"
+              style="width: 19rem"
+            >
+              <img
+                src="./img/content-image-shield.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">TRUSTED PAY</h5>
+                <p class="card-text">100% Payment Protection & Easy return</p>
+              </div>
+            </div>
+            <div
+              class="card text-center align-items-center credit-card-container"
+              style="width: 19em"
+            >
+              <img
+                src="./img/content-image-creditCards.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">SECURED PAYMENT</h5>
+                <p class="card-text">All Major & Debit Cards Accepted</p>
+              </div>
+            </div>
+            <div
+              class="card text-center align-items-center mobilePhone-card-container"
+              style="width: 18rem"
+            >
+              <img
+                src="./img/content-image-mobilePhone.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">SHOP ON APP</h5>
+                <p class="card-text">
+                  Just Download our App & Shop With Best Offers!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="d-flex align-items-center justify-content-center keep-in-touch-section"
+      >
+        <div class="container">
+          <div class="row justify-content-between">
+            <!-- Надо понять где я здесь туплю-->
             <div class="col-auto d-flex align-items-center imgText-wrapper">
-              <img src="./img/paper-plane.png" alt="paper-plane" class="paper-plane-img">
+              <img
+                src="./img/paper-plane.png"
+                alt="paper-plane"
+                class="paper-plane-img"
+              />
               <h2>signup to newsletter</h2>
             </div>
             <div class="form-wrapper col-4 d-flex align-items-center">
               <form class="validateEmail row">
-                <input type="email" name="useremail" class="userEmail col-md form-control" placeholder="Enter Your Email Address" required>
-                <button type="submit" class="submitEmailAdress btn btn-primary ">submit</button>
+                <input
+                  type="email"
+                  name="useremail"
+                  class="userEmail col-md form-control"
+                  placeholder="Enter Your Email Address"
+                  required
+                />
+                <button type="submit" class="submitEmailAdress btn btn-primary">
+                  submit
+                </button>
               </form>
             </div>
             <div class="d-flex vertical-line col-auto">
               <div class="vr"></div>
             </div>
-            <div class="social-links-svg col-4 d-flex justify-content-start align-items-center">
-              <div class="social-links-svg-wrapper row d-flex align-items-center">
+            <div
+              class="social-links-svg col-4 d-flex justify-content-start align-items-center"
+            >
+              <div
+                class="social-links-svg-wrapper row d-flex align-items-center"
+              >
                 <h3 class="col-auto">keep in touch</h3>
                 <div class="nav col-5 d-flex flex-row justify-content-around">
-                  <div class="svg-container d-flex justify-content-center align-items-center">
+                  <div
+                    class="svg-container d-flex justify-content-center align-items-center"
+                  >
                     <a href="#" class="fa-brands fa-twitter"></a>
                   </div>
-                  <div class="svg-container d-flex justify-content-center align-items-center">
+                  <div
+                    class="svg-container d-flex justify-content-center align-items-center"
+                  >
                     <a href="#" class="fa-brands fa-facebook-f"></a>
                   </div>
-                  <div class="svg-container d-flex justify-content-center align-items-center">
+                  <div
+                    class="svg-container d-flex justify-content-center align-items-center"
+                  >
                     <a href="#" class="fa-brands fa-instagram"></a>
                   </div>
-                  <div class="svg-container d-flex justify-content-center align-items-center">
+                  <div
+                    class="svg-container d-flex justify-content-center align-items-center"
+                  >
                     <a href="#" class="fa-brands fa-pinterest"></a>
                   </div>
-                  <div class="svg-container d-flex justify-content-center align-items-center">
+                  <div
+                    class="svg-container d-flex justify-content-center align-items-center"
+                  >
                     <a href="#" class="fa-brands fa-vimeo-v"></a>
                   </div>
                 </div>
@@ -378,26 +538,36 @@
         <div class="container d-flex align-items-center justify-content-center">
           <div class="informative-text col-3">
             <div class="logo-text d-flex align-items-center">
-              <img src="img/logo.png" alt="logo">
-              <h2 style="font-family: Raleway-Bold;
-              font-size: 26px; margin: 0;">SUPERMART</h2>
+              <img src="img/logo.png" alt="logo" />
+              <h2 style="font-family: Raleway-Bold; font-size: 26px; margin: 0">
+                SUPERMART
+              </h2>
             </div>
-            <p class="informative-text-content">Many say exploration is part of our dest but it’s actually our duty to future and their.</p>
-            <p class="informative-text-content"><span class="dif-p-word">Address:</span> 868 Fake Street, New York</p>
-            <p class="informative-text-content"><span class="dif-p-word">Phone:</span> (08) 08 4752 1499</p>
-            <p class="informative-text-content"><span class="dif-p-word">Email:</span> info@supermart.com</p>
+            <p class="informative-text-content">
+              Many say exploration is part of our dest but it’s actually our
+              duty to future and their.
+            </p>
+            <p class="informative-text-content">
+              <span class="dif-p-word">Address:</span> 868 Fake Street, New York
+            </p>
+            <p class="informative-text-content">
+              <span class="dif-p-word">Phone:</span> (08) 08 4752 1499
+            </p>
+            <p class="informative-text-content">
+              <span class="dif-p-word">Email:</span> info@supermart.com
+            </p>
           </div>
           <div class="col-8">
             <div class="navigation-bottom-menu row">
               <div class="col d-flex flex-column">
-                <h2 class="">company</h1>
+                <h2 class="">company</h2>
                 <div class="special-offers-links">
                   <ul class="nav flex-column">
-                      <li class="nav-item"><a href="">Discount Vouches</a></li>
-                      <li class="nav-item"><a href="">Spring Collection</a></li>
-                      <li class="nav-item"><a href="">Trending</a></li>
-                      <li class="nav-item"><a href="">Best Sellers</a></li>
-                      <li class="nav-item"><a href="">Special Deals</a></li>
+                    <li class="nav-item"><a href="">Discount Vouches</a></li>
+                    <li class="nav-item"><a href="">Spring Collection</a></li>
+                    <li class="nav-item"><a href="">Trending</a></li>
+                    <li class="nav-item"><a href="">Best Sellers</a></li>
+                    <li class="nav-item"><a href="">Special Deals</a></li>
                   </ul>
                 </div>
               </div>
@@ -405,11 +575,11 @@
                 <h2>policy info</h2>
                 <div class="policy-info-links">
                   <ul class="nav flex-column">
-                      <li class="nav-item"><a href="">Orders & Returns</a></li>
-                      <li class="nav-item"><a href="">Advanced Search</a></li>
-                      <li class="nav-item"><a href="">Help & FAQS</a></li>
-                      <li class="nav-item"><a href="">Consultant</a></li>
-                      <li class="nav-item"><a href="">Store Locations</a></li>
+                    <li class="nav-item"><a href="">Orders & Returns</a></li>
+                    <li class="nav-item"><a href="">Advanced Search</a></li>
+                    <li class="nav-item"><a href="">Help & FAQS</a></li>
+                    <li class="nav-item"><a href="">Consultant</a></li>
+                    <li class="nav-item"><a href="">Store Locations</a></li>
                   </ul>
                 </div>
               </div>
@@ -417,11 +587,13 @@
                 <h2>my accout</h2>
                 <div class="my-account-links">
                   <ul class="nav flex-column">
-                      <li class="nav-item"><a href="">About us</a></li>
-                      <li class="nav-item"><a href="">Delivery information</a></li>
-                      <li class="nav-item"><a href="">Privacy Policy</a></li>
-                      <li class="nav-item"><a href="">Terms & Conditions</a></li>
-                      <li class="nav-item"><a href="">Custom Link</a></li>
+                    <li class="nav-item"><a href="">About us</a></li>
+                    <li class="nav-item">
+                      <a href="">Delivery information</a>
+                    </li>
+                    <li class="nav-item"><a href="">Privacy Policy</a></li>
+                    <li class="nav-item"><a href="">Terms & Conditions</a></li>
+                    <li class="nav-item"><a href="">Custom Link</a></li>
                   </ul>
                 </div>
               </div>
@@ -433,12 +605,24 @@
 
     <footer class="footer-expand-lg mt-auto py-3">
       <div class="container">
-        <p>&#169 copyright - supermart template by designfalls</p>
+        <p>&#169; copyright - supermart template by designfalls</p>
       </div>
     </footer>
-  </body>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
