@@ -83,7 +83,6 @@ a {
 
 .header-content {
     margin: 32px 0px 32px 0px;
-    height: 46px;
 }
 
 .left-header,
@@ -220,13 +219,13 @@ a {
     border: none;
 }
 
-.card:not(:first-child) {
+/* .card:not(:first-child) {
     padding-left: 66px;
-}
+} */
 
 .card:not(:last-child) {
     border-right: 1px rgba(0, 0, 0, .125) solid;
-    padding-right: 57px;
+    /* padding-right: 57px; */
 }
 
 .telega-card-container img {
@@ -384,4 +383,7 @@ footer p {
     font-style: normal;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+.navbar-toggler{
+    border:none;
 }
