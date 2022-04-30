@@ -112,12 +112,14 @@ a {
     -moz-appearance: none;
     -o-appearance: none;
     appearance: none;
+    background-color: transparent;
     color: black;
     border-radius: 1px;
 }
 
 .btn:hover {
     color: black;
+    background-color: transparent;
 }
 
 
